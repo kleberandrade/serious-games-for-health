@@ -1,5 +1,7 @@
 # Serious Games for Health
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a79b5ac0ba23464eb764f9ce88e59377)](https://app.codacy.com/app/kleberandrade/serious-games-for-health?utm_source=github.com&utm_medium=referral&utm_content=kleberandrade/serious-games-for-health&utm_campaign=Badge_Grade_Dashboard)
+
 Serious games for health
 
 ## Tools
