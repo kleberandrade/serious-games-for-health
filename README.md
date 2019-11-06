@@ -2,11 +2,21 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a79b5ac0ba23464eb764f9ce88e59377)](https://app.codacy.com/app/kleberandrade/serious-games-for-health?utm_source=github.com&utm_medium=referral&utm_content=kleberandrade/serious-games-for-health&utm_campaign=Badge_Grade_Dashboard)
 
-Serious games for health
+Fatec Americana research project to create a health promotion and disease prevention game in partnership with the Durban University.
+
+## Game Overview
+
+### Environments
+
+### Characters
+
+### Mechanics
+
+### Controls
 
 ## Tools
 
-*   Unity
+*   [Unity 3D](https://unity.com)
 
 ## Team
 
@@ -27,6 +37,10 @@ Serious games for health
 *   Kleber de Oliveira Andrade (Assistant Professor - FATEC at Americana)
 *   Osvaldo Succi (Assistant Professor - FATEC at Americana)
 *   Dudu Sokhela (Assistant Professor - Durban University)
+
+## References
+
+## Acknowledgment
 
 ## Licença
 
