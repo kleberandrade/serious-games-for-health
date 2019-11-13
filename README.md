@@ -13,7 +13,7 @@ Fatec Americana research project to create a health promotion and disease preven
 ### Mechanics
 
 ### Controls
-
+**Movement Player -** W, S, A, D or Arrow keys.
 ## Tools
 
 *   [Unity 3D](https://unity.com)
@@ -25,7 +25,6 @@ Fatec Americana research project to create a health promotion and disease preven
 *   Evaldo Araujo (Digital Games major – FATEC at Americana)
 *   Gabriel Cassimiro (Digital Games major – FATEC at Americana)
 *   Gabriela - common Texugo (Digital Games major – FATEC at Americana)
-*   João Vitor Mathias (Digital Games major – FATEC at Americana)
 *   Kauê (Digital Games major – FATEC at Americana)
 *   Leonardo Dantas (Digital Games major – FATEC at Americana)
 *   Marina Demori (Digital Games major – FATEC at Americana)
