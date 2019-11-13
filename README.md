@@ -21,16 +21,17 @@ Fatec Americana research project to create a health promotion and disease preven
 ## Team
 
 ### Students
+*   Athus Gonçalves (Digital Games major – FATEC at Americana)
 *   Daniele Arruda (Digital Games major – FATEC at Americana)
 *   Evaldo Araujo (Digital Games major – FATEC at Americana)
 *   Gabriel Cassimiro (Digital Games major – FATEC at Americana)
-*   Gabriela - common Texugo (Digital Games major – FATEC at Americana)
-*   Kauê (Digital Games major – FATEC at Americana)
+*   Lana Schimitez (Digital Games major – FATEC at Americana)
 *   Leonardo Dantas (Digital Games major – FATEC at Americana)
 *   Marina Demori (Digital Games major – FATEC at Americana)
+*   Matheus D'Luca (Digital Games major – FATEC at Americana)
+*   Tiago Carnevalli (Digital Games major – FATEC at Americana)
 *   Vinicius Lima (Digital Games major – FATEC at Americana)
-*   Vagner Leite (Digital Games major – FATEC at Americana)
-*   Wlademir (Digital Games major – FATEC at Americana)
+*   Wladimir Barbosa (Digital Games major – FATEC at Americana)
 
 ### Professors
 *   Kleber de Oliveira Andrade (Assistant Professor - FATEC at Americana)
