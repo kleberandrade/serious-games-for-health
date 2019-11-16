@@ -30,6 +30,7 @@ Fatec Americana research project to create a health promotion and disease preven
 *   Marina Demori (Digital Games major – FATEC at Americana)
 *   Matheus D'Luca (Digital Games major – FATEC at Americana)
 *   Tiago Carnevalli (Digital Games major – FATEC at Americana)
+*   Rafael Lee (Digital Games major – FATEC at Americana)
 *   Vinicius Lima (Digital Games major – FATEC at Americana)
 *   Wladimir Barbosa (Digital Games major – FATEC at Americana)
 
