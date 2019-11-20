@@ -7,7 +7,7 @@ Fatec Americana research project to create a health promotion and disease preven
 ## Game Overview
 
 ### Environments
-
+The setting will be all in a medical clinic, with characters being randomly generated, with simple moves only requiring basic player actions.
 ### Characters
 
 ### Mechanics
