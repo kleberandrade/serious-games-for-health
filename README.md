@@ -6,18 +6,32 @@ Fatec Americana research project to create a health promotion and disease preven
 
 ## Game Overview
 A child follows his or her relative to the medical clinic and there they will learn from their observations and things they read and hear about different types of diseases. With this purpose, the game seeks to work on the concept of a Serious Game, working on a serious health theme and with the main purpose of teach and raise awareness to the player about the following diseases: Asthma, Diabetes, Hypertension and HIV. Using the natural curiosity factor of the children, the main player-guided character will explore the environment and thus gain insight about diseases, learning from each new discovery and walking through the story by meeting other characters and interacting with the environment as well.
-
 ### Environments
 The setting will be all in a medical clinic, with characters being randomly generated, with simple moves only requiring basic player actions.
 ### Characters
+To be defined
 
+### Art
+Pixel art with visual novel elements.
 ### Mechanics
-
+Most of the time, the game will use choices as a mechanism, where they will set the course of the game, resulting in discovery and learning about the following diseases: HIV, Asthma, Hypertension, Diabetes. In addition to the choice mechanics, the game will be a top-down 2D pixel-art with visual novel elements, where all dialogs with interactions will be visualized.
 ### Controls
-**Movement Player -** W, S, A, D or Arrow keys.
+*Mobile game:*
+**Touch** for **all** actions or control on screen.
+*Desktop Version:*
+**Movement Player -**  W, S, A, D or arrows keys.
+**Interaction -** E.
+**Narrative and Choices -** Right-click or Enter
+
+### General Definitions
+Genre: Serious Game
+Platforms: PC and Mobile (Android)
+Target Audience: Teenagers and Adults 
 ## Tools
 
 *   [Unity 3D](https://unity.com)
+*   [Aseprite](https://www.aseprite.org)
+*   [VisualStudio](https://visualstudio.microsoft.com/)
 
 ## Team
 
@@ -46,7 +60,7 @@ The setting will be all in a medical clinic, with characters being randomly gene
 
 ## Licença
 
-    Copyright 2018 Kleber de Oliveira Andrade
+    Copyright 2019 FATEC at Americana
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
