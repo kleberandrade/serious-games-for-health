@@ -5,6 +5,7 @@
 Fatec Americana research project to create a health promotion and disease prevention game in partnership with the Durban University.
 
 ## Game Overview
+A child follows his or her relative to the medical clinic and there they will learn from their observations and things they read and hear about different types of diseases. With this purpose, the game seeks to work on the concept of a Serious Game, working on a serious health theme and with the main purpose of teach and raise awareness to the player about the following diseases: Asthma, Diabetes, Hypertension and HIV. Using the natural curiosity factor of the children, the main player-guided character will explore the environment and thus gain insight about diseases, learning from each new discovery and walking through the story by meeting other characters and interacting with the environment as well.
 
 ### Environments
 The setting will be all in a medical clinic, with characters being randomly generated, with simple moves only requiring basic player actions.
