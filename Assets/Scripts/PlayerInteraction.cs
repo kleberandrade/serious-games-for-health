@@ -5,6 +5,12 @@ using UnityEngine;
 public class PlayerInteraction : MonoBehaviour
 {
     public GameObject interaction = null;
+    public PlayerMoviment PlayerMoviment;
+
+    public void Start()
+    {
+        PlayerMoviment = gameObject.GetComponent<PlayerMoviment>();
+    }
     private void Update()
     {
         if (Input.touchCount > 0 && interaction)
@@ -21,12 +27,16 @@ public class PlayerInteraction : MonoBehaviour
                 if (interaction.CompareTag("Items"))
                 {
                     Debug.Log("Item selecionado  " + interaction.name); //somente para teste, apagar depois
-                    //abrir interação do item
+                    //ativar script Items do objeto
+                    PlayerMoviment.enabled = false;
+                    //desativar ao finalizar a interacao
                 }
                 if (interaction.CompareTag("NPCs"))
                 {
                     Debug.Log("NPC selecionado  " + interaction.name); //somente para teste, apagar depois
-                    //abrir interação do NPC
+                    //ativar script NPCs do NPC
+                    PlayerMoviment.enabled = false;
+                    //desativar ao finalizar a interacao
                 }
             }
         }
