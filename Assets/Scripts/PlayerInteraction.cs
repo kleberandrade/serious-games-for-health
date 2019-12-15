@@ -6,10 +6,12 @@ public class PlayerInteraction : MonoBehaviour
 {
     public GameObject interaction = null;
     public PlayerMoviment PlayerMoviment;
+    public GameObject joystick;
 
     public void Start()
     {
         PlayerMoviment = gameObject.GetComponent<PlayerMoviment>();
+        joystick = GameObject.Find("Fixed Joystick");
     }
     private void Update()
     {
@@ -19,7 +21,7 @@ public class PlayerInteraction : MonoBehaviour
             Vector2 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
             var touchX = touchPosition.x;
             var touchY = touchPosition.y;
-            Vector2 itemsPosition = Camera.main.ScreenToWorldPoint(interaction.transform.position);
+            Vector2 itemsPosition = interaction.transform.position;
             var itemsX = itemsPosition.x;
             var itemsY = itemsPosition.y;
             if ( touchX < itemsX + 1 && touchX > itemsX - 1 && touchY < itemsY + 1 && touchY > itemsY - 1)
@@ -27,16 +29,26 @@ public class PlayerInteraction : MonoBehaviour
                 if (interaction.CompareTag("Items"))
                 {
                     Debug.Log("Item selecionado  " + interaction.name); //somente para teste, apagar depois
-                    //ativar script Items do objeto
+                    //ativar script do item
+                    // desativado joystick e os movimentos, ativar quando encerrar a interacao
+                    joystick.SetActive(false);
+                    foreach (Transform t in transform)
+                    {
+                        t.gameObject.SetActive(false);
+                    }
                     PlayerMoviment.enabled = false;
-                    //desativar ao finalizar a interacao
                 }
                 if (interaction.CompareTag("NPCs"))
                 {
                     Debug.Log("NPC selecionado  " + interaction.name); //somente para teste, apagar depois
-                    //ativar script NPCs do NPC
+                    //ativar script do NPC
+                    // desativado joystick e os movimentos, ativar quando encerrar a interacao
+                    joystick.SetActive(false);
+                    foreach (Transform t in transform)
+                    {
+                        t.gameObject.SetActive(false);
+                    }
                     PlayerMoviment.enabled = false;
-                    //desativar ao finalizar a interacao
                 }
             }
         }
