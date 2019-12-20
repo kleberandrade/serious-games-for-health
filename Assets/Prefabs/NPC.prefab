@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8832031670841909071}
   - component: {fileID: 8832031670841909068}
   - component: {fileID: 5750018404911489053}
+  - component: {fileID: 7949343505347562039}
   m_Layer: 0
   m_Name: NPC
   m_TagString: NPCs
@@ -144,4 +145,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18ee4f2c99c0344c8af43a3fcd8b9e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Doctor
+  name: NPC
+--- !u!114 &7949343505347562039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8832031670841909069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25334235e6d58624fb9aa3ef04c30ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Dialog:
+    m_Name: NPC
+    m_Avatar: {fileID: 0}
+    m_Sentences: []
