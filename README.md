@@ -18,11 +18,11 @@ Most of the time, the game will use choices as a mechanism, where they will set 
 ### Controls
 *Mobile game:*
 
-**Touch** for **all** actions or control on screen.
+**Touch** for **all** actions or control on screen
 
 *Desktop Version:*
 
-**Movement Player -**  W, S, A, D or arrows keys.
+**Movement Player -**  W, S, A, D or arrows keys
 
 **Interaction -** E.
 
