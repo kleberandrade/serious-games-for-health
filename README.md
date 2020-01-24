@@ -17,10 +17,15 @@ Pixel art with visual novel elements.
 Most of the time, the game will use choices as a mechanism, where they will set the course of the game, resulting in discovery and learning about the following diseases: HIV, Asthma, Hypertension, Diabetes. In addition to the choice mechanics, the game will be a top-down 2D pixel-art with visual novel elements, where all dialogs with interactions will be visualized.
 ### Controls
 *Mobile game:*
+
 **Touch** for **all** actions or control on screen.
+
 *Desktop Version:*
+
 **Movement Player -**  W, S, A, D or arrows keys.
+
 **Interaction -** E.
+
 **Narrative and Choices -** Right-click or Enter
 
 ### General Definitions
