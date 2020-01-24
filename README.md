@@ -41,6 +41,7 @@ Target Audience: Teenagers and Adults
 *   Erik Riccioppo(Digital Games major – FATEC at Americana)
 *   Evaldo Araujo (Digital Games major – FATEC at Americana)
 *   Gabriel Cassimiro (Digital Games major – FATEC at Americana)
+*   Gustavo Dilarri (Digital Games major – FATEC at Americana)
 *   Lana Schimitez (Digital Games major – FATEC at Americana)
 *   Leonardo Dantas (Digital Games major – FATEC at Americana)
 *   Marina Demori (Digital Games major – FATEC at Americana)
