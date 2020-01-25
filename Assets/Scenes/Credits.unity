@@ -306,7 +306,7 @@ MonoBehaviour:
   m_RoleSize: 36
   m_PersonSize: 24
   m_Space: 25
-  m_Speed: 20
+  m_Speed: 30
   m_Canvas: {fileID: 1228511355}
 --- !u!114 &431210692
 MonoBehaviour:
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e8e17197af022f4c869af6d9c29f2ba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 71f3c58515b063540b0507e6c6c61739, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
