@@ -80,7 +80,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             if (other.gameObject == interaction)
             {
-                Debug.Log("Item não está mais acessivel"); //somente para teste, apagar depois
+                Debug.Log("NPC não está mais acessivel"); //somente para teste, apagar depois
                 interaction = null;
             }
         }

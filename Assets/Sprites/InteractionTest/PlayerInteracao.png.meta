@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: 66bfcc3edb8d6fe4eba0a049cd39e6bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6269653722609583269
+    second: PlayerInteracao_0
+  - first:
+      213: -5517419683007756686
+    second: PlayerInteracao_1
+  - first:
+      213: -6448156874725539199
+    second: PlayerInteracao_2
+  - first:
+      213: -5767809193974985050
+    second: PlayerInteracao_3
+  - first:
+      213: -2379654651390478569
+    second: PlayerInteracao_4
+  - first:
+      213: 1222800220717479450
+    second: PlayerInteracao_5
+  - first:
+      213: -3543865458777674966
+    second: PlayerInteracao_6
+  - first:
+      213: -6692228651714399493
+    second: PlayerInteracao_7
+  - first:
+      213: -7869674629034548059
+    second: PlayerInteracao_8
+  - first:
+      213: 170943570737604249
+    second: PlayerInteracao_9
+  - first:
+      213: 2910863534677750073
+    second: PlayerInteracao_10
+  - first:
+      213: 2091280633900890927
+    second: PlayerInteracao_11
+  - first:
+      213: -1530788519007719681
+    second: PlayerInteracao_12
+  - first:
+      213: -4411800071287246980
+    second: PlayerInteracao_13
+  - first:
+      213: 5711428648945032931
+    second: PlayerInteracao_14
+  - first:
+      213: -6659622534292970973
+    second: PlayerInteracao_15
+  - first:
+      213: 6795723099163812190
+    second: PlayerInteracao_16
+  - first:
+      213: -5077082155113455613
+    second: PlayerInteracao_17
+  - first:
+      213: 9125184259412417404
+    second: PlayerInteracao_18
+  - first:
+      213: -8848023469548244119
+    second: PlayerInteracao_19
+  - first:
+      213: -4690714905131272349
+    second: PlayerInteracao_20
+  - first:
+      213: 4805445529850890853
+    second: PlayerInteracao_21
+  - first:
+      213: 2224804254365370580
+    second: PlayerInteracao_22
+  - first:
+      213: 5268965875393822450
+    second: PlayerInteracao_23
+  - first:
+      213: 2123700522943418997
+    second: PlayerInteracao_24
+  - first:
+      213: 312681839934227296
+    second: PlayerInteracao_25
+  - first:
+      213: -9204093962817453394
+    second: PlayerInteracao_26
+  - first:
+      213: 6162792498928185913
+    second: PlayerInteracao_27
+  - first:
+      213: -2992009203285464820
+    second: PlayerInteracao_28
+  - first:
+      213: 7165877947620127059
+    second: PlayerInteracao_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayerInteracao_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 72
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbc6146a871dea44af6c68cd552f6f7
+      internalID: 6269653722609583269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 72
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225908864fc87704ea9587613bdeadbc
+      internalID: -5517419683007756686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 72
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e08d667faf26b45a80e08e8200a1ce
+      internalID: -6448156874725539199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 72
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d6cf5015171d64fbf206266258f3d1
+      internalID: -5767809193974985050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 72
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99dc760b04f9a3249a38bb6e0f5022b4
+      internalID: -2379654651390478569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 72
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd25d83970a86204fa227f86912013fa
+      internalID: 1222800220717479450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 72
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c3008377d75da438676a7019da0f32
+      internalID: -3543865458777674966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_7
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 72
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c928f8a9402334db298f67c5a35993
+      internalID: -6692228651714399493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_8
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 72
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d38d179c49cd74682c2579bf629bec
+      internalID: -7869674629034548059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_9
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 72
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159bf842c7ab39643b2c318c699b2ea7
+      internalID: 170943570737604249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_10
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 72
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debdae65dbab517479a96775f7c76c49
+      internalID: 2910863534677750073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_11
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 72
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7e411ad33776b43ab5e2c7c13876cf
+      internalID: 2091280633900890927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 72
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a27329a31059c747b181fa91daa47fd
+      internalID: -1530788519007719681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_13
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 72
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a154b12faa7f34d90887be12273abc
+      internalID: -4411800071287246980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_14
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 72
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7135d10e932a8d41b6a4811fadb2f36
+      internalID: 5711428648945032931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941c3f8aed4bec843b70c4587805be21
+      internalID: -6659622534292970973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 4
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c8a53080cdb4b4a9485d26166c1d8c
+      internalID: 6795723099163812190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 4
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1de3c436210d8458cc3c2dfc8d3ad2
+      internalID: -5077082155113455613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 4
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbff5eb104477f48b3957cca14dddc8
+      internalID: 9125184259412417404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 4
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5071592c747f594db1ad926e1ef49d7
+      internalID: -8848023469548244119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_20
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62984cb7eb92ddf41bdf46daf88dd36a
+      internalID: -4690714905131272349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_21
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 4
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8c8a91984741d418b08f9a37b836a8
+      internalID: 4805445529850890853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_22
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 4
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ae2041dbb2f234e86ceace3fd9ce10
+      internalID: 2224804254365370580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_23
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 4
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7731dccb3e8bd114fb02475bdca7d9f8
+      internalID: 5268965875393822450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_24
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 4
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dbb654da7f7c14abcdb04143cfd749
+      internalID: 2123700522943418997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_25
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa30913633d9bd4083f2f51953a3268
+      internalID: 312681839934227296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_26
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 4
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e9fd01110b06f4da4660f7c5aea536
+      internalID: -9204093962817453394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_27
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac365c719e7feff4c9f8ff0d93f11f17
+      internalID: 6162792498928185913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_28
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb796732f1ba8ca4aa40df0e6c9bf47a
+      internalID: -2992009203285464820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerInteracao_29
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 4
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55a335d8b535a349bf069d59254df89
+      internalID: 7165877947620127059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
