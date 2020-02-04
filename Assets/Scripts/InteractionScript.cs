@@ -6,9 +6,12 @@ public class InteractionScript : MonoBehaviour
 {
     [SerializeField]
     private List<string> m_InteractableTags;
+    [SerializeField]
+    private KeyCode m_KeyToInteract = KeyCode.E;
+    public bool m_OpenDialog = false;
+
     private bool m_TouchToInteract = false;
     private SpriteRenderer m_SpriteRenderer;
-    public bool m_OpenDialog = false;
 
     private void Start()
     {
@@ -17,6 +20,12 @@ public class InteractionScript : MonoBehaviour
 
     private void Update()
     {
+
+        if (m_TouchToInteract && Input.GetKeyDown(m_KeyToInteract))
+        {
+            GetComponent<DialogTrigger>().ToggleDialog();
+        }
+
         foreach (Touch touch in Input.touches)
         {
             if (touch.phase == TouchPhase.Began)
