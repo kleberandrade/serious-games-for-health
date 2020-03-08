@@ -306,7 +306,7 @@ MonoBehaviour:
   m_RoleSize: 36
   m_PersonSize: 24
   m_Space: 25
-  m_Speed: 30
+  m_Speed: 55
   m_Canvas: {fileID: 1228511355}
 --- !u!114 &431210692
 MonoBehaviour:
