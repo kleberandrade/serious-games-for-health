@@ -5,11 +5,15 @@ using UnityEngine;
 public class PlayerMoviment : MonoBehaviour
 {
     public Joystick joystick;
-    public float speed = 2f;
+    public float speed = 3f;
+    /*
     float speedHorizontal = 0f;
     float speedVertical = 0f;
+    */
+
     void Update()
     {
+        /*
         if (joystick.Horizontal >= .3f)
         {
             speedHorizontal = speed;
@@ -37,5 +41,9 @@ public class PlayerMoviment : MonoBehaviour
             transform.Translate(Vector3.right * speedHorizontal * Time.deltaTime);
             transform.Translate(Vector3.up * speedVertical * Time.deltaTime);
         }
+        */
+
+        transform.Translate(Vector3.right * joystick.Horizontal * speed * Time.deltaTime);
+        transform.Translate(Vector3.up * joystick.Vertical * speed * Time.deltaTime);
     }
 }
