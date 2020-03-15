@@ -1,15 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
-public class PlayerMoviment : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public Joystick joystick;
     public float speed = 3f;
+    private Rigidbody2D rb2d;
+    [Header("Use keyboard")]
+    public bool m_Keyboard = true;
+    public string m_HorizonalAxis = "Horizontal";
+    public string m_VerticalAxis = "Vertical";
+
     /*
     float speedHorizontal = 0f;
     float speedVertical = 0f;
     */
+
+    private void Start()
+    {
+        rb2d = GetComponent<Rigidbody2D>();
+    }
 
     void Update()
     {
@@ -29,7 +41,7 @@ public class PlayerMoviment : MonoBehaviour
             speedVertical = speed;
             transform.Translate(Vector3.up * speedVertical * Time.deltaTime);
         }
-        if (joystick.Vertical <= -.3f)
+        else if (joystick.Vertical <= -.3f)
         {
             speedVertical = -speed;
             transform.Translate(Vector3.up * speedVertical * Time.deltaTime);
@@ -43,7 +55,23 @@ public class PlayerMoviment : MonoBehaviour
         }
         */
 
-        transform.Translate(Vector3.right * joystick.Horizontal * speed * Time.deltaTime);
-        transform.Translate(Vector3.up * joystick.Vertical * speed * Time.deltaTime);
+        Vector2 movement = Vector2.zero;
+        float moveHorizontal = 0;
+        float moveVertical = 0;
+
+        if (m_Keyboard)
+        {
+            moveHorizontal = Input.GetAxisRaw(m_HorizonalAxis);
+            moveVertical = Input.GetAxisRaw(m_VerticalAxis);
+        }
+        else
+        {
+            moveHorizontal = joystick.Horizontal;
+            moveVertical = joystick.Vertical;
+        }
+
+        movement = new Vector2(moveHorizontal, moveVertical);
+
+        rb2d.MovePosition(rb2d.position + movement.normalized * speed * Time.deltaTime);
     }
 }

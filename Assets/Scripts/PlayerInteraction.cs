@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public GameObject interaction = null;
-    public PlayerMoviment PlayerMoviment;
-    public GameObject joystick;
+    private GameObject interaction = null;
+    private PlayerMovement PlayerMovement;
+    private GameObject joystick;
 
     public void Start()
     {
-        PlayerMoviment = gameObject.GetComponent<PlayerMoviment>();
+        PlayerMovement = gameObject.GetComponent<PlayerMovement>();
         joystick = GameObject.Find("Fixed Joystick");
     }
     private void Update()
@@ -36,7 +36,7 @@ public class PlayerInteraction : MonoBehaviour
                     {
                         t.gameObject.SetActive(false);
                     }
-                    PlayerMoviment.enabled = false;
+                    PlayerMovement.enabled = false;
                 }
                 if (interaction.CompareTag("NPCs"))
                 {
@@ -48,7 +48,7 @@ public class PlayerInteraction : MonoBehaviour
                     {
                         t.gameObject.SetActive(false);
                     }
-                    PlayerMoviment.enabled = false;
+                    PlayerMovement.enabled = false;
                 }
             }
         }
@@ -58,21 +58,22 @@ public class PlayerInteraction : MonoBehaviour
         if (other.CompareTag("Items"))
         {
             interaction = other.gameObject;
-            Debug.Log("Item com interação"); //somente para teste, apagar depois
+            Debug.Log("Item com interação " + interaction.name); //somente para teste, apagar depois
         }
         if (other.CompareTag("NPCs"))
         {
             interaction = other.gameObject;
-            Debug.Log("NPCs com interação"); //somente para teste, apagar depois
+            Debug.Log("NPCs com interação " + interaction.name); //somente para teste, apagar depois
         }
     }
-        void OnTriggerExit2D(Collider2D other)
+        
+    void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Items"))
         {
             if (other.gameObject == interaction)
             {
-                Debug.Log("Item não está mais acessivel"); //somente para teste, apagar depois
+                Debug.Log($"Item {interaction.name} não está mais acessivel"); //somente para teste, apagar depois
                 interaction = null;
             }
         }
@@ -80,7 +81,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             if (other.gameObject == interaction)
             {
-                Debug.Log("NPC não está mais acessivel"); //somente para teste, apagar depois
+                Debug.Log($"NPC {interaction.name} não está mais acessivel"); //somente para teste, apagar depois
                 interaction = null;
             }
         }

@@ -21,6 +21,8 @@ public class DialogManager : MonoBehaviour
     public Text m_SentenceText;
     public Text m_SkipText;
     public Image m_BackgroundImage;
+    public Image m_PlayerImage;
+    public Image m_CharacterImage;
 
     [Header("Animator")]
     public Animator m_Animator;
@@ -42,15 +44,22 @@ public class DialogManager : MonoBehaviour
         }
 
         OpenDialogAnimation(true);
-        GameObject.Find("Joystick Canvas").GetComponent<ToggleJoystick>().toggleJoystick();
+        ToggleJoystickCanvas(false);
         m_Sentences.Clear();
         UpdateUI(dialog);
+    }
+
+    private static void ToggleJoystickCanvas(bool open)
+    {
+        GameObject.Find("Joystick Canvas").GetComponent<ToggleJoystick>().toggleJoystick(open);
     }
 
     public void UpdateUI(Dialog dialog)
     {
         if (m_NameText) m_NameText.text = dialog.m_Name;
         if (m_BackgroundImage) m_BackgroundImage.sprite = dialog.m_BackgroundImage;
+        if (m_PlayerImage) m_PlayerImage.sprite = dialog.m_PlayerImage;
+        if (m_CharacterImage) m_CharacterImage.sprite = dialog.m_CharacterImage;
 
         foreach (var sentence in dialog.m_Sentences)
             m_Sentences.Enqueue(sentence);
@@ -88,7 +97,7 @@ public class DialogManager : MonoBehaviour
     public void CloseDialog()
     {
         OpenDialogAnimation(false);
-        GameObject.Find("Joystick Canvas").GetComponent<ToggleJoystick>().toggleJoystick();
+        ToggleJoystickCanvas(true);
     }
 
     private IEnumerator WriteSentece(DialogSentence sentence)
@@ -108,6 +117,8 @@ public class Dialog
 {
     public string m_Name;
     public Sprite m_BackgroundImage;
+    public Sprite m_PlayerImage;
+    public Sprite m_CharacterImage;
     public List<DialogSentence> m_Sentences;
 }
 
