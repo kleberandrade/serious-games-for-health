@@ -2027,6 +2027,7 @@ GameObject:
   - component: {fileID: 796204365}
   - component: {fileID: 796204363}
   - component: {fileID: 796204362}
+  - component: {fileID: 796204367}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2125,6 +2126,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joystick: {fileID: 142592007}
   speed: 5
+  _PlayerRight: {fileID: 8409342872385146662, guid: fbb368b99e8c7f142909c05ceda6f759,
+    type: 3}
 --- !u!50 &796204364
 Rigidbody2D:
   serializedVersion: 4
@@ -2188,6 +2191,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.875}
   m_EdgeRadius: 0
+--- !u!95 &796204367
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796204359}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3c7f1d70f34ee244abdb3cc178cb8e6b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &831057693
 PrefabInstance:
   m_ObjectHideFlags: 0

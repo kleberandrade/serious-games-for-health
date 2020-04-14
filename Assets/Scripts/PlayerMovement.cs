@@ -6,7 +6,7 @@ using UnityEditor;
 public class PlayerMovement : MonoBehaviour
 {
     public Joystick joystick;
-    public float speed = 3.0f;
+    public float speed = 2.0f;
 
     // Pathfinding
     Vector3[] path;
