@@ -2126,8 +2126,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joystick: {fileID: 142592007}
   speed: 5
-  _PlayerRight: {fileID: 8409342872385146662, guid: fbb368b99e8c7f142909c05ceda6f759,
-    type: 3}
 --- !u!50 &796204364
 Rigidbody2D:
   serializedVersion: 4
@@ -2217,6 +2215,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2050155265704925707, guid: 372ba221ea6527e439213ab9fe5ab633,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -526.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2050155265704925707, guid: 372ba221ea6527e439213ab9fe5ab633,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2050155265704925707, guid: 372ba221ea6527e439213ab9fe5ab633,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -400
+      objectReference: {fileID: 0}
     - target: {fileID: 2050155266671878915, guid: 372ba221ea6527e439213ab9fe5ab633,
         type: 3}
       propertyPath: m_Name
@@ -2326,6 +2339,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2050155266898026592, guid: 372ba221ea6527e439213ab9fe5ab633,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -650
+      objectReference: {fileID: 0}
+    - target: {fileID: 2050155266898026592, guid: 372ba221ea6527e439213ab9fe5ab633,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 473
+      objectReference: {fileID: 0}
+    - target: {fileID: 2050155266898026592, guid: 372ba221ea6527e439213ab9fe5ab633,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 2050155266898026592, guid: 372ba221ea6527e439213ab9fe5ab633,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 350
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 372ba221ea6527e439213ab9fe5ab633, type: 3}
