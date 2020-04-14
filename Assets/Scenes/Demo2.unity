@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 173637596}
   - component: {fileID: 173637595}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: Tilemap_Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2031,8 +2031,9 @@ GameObject:
   - component: {fileID: 1230781537}
   - component: {fileID: 1230781539}
   - component: {fileID: 1230781538}
+  - component: {fileID: 1230781540}
   m_Layer: 0
-  m_Name: Tilemap (1)
+  m_Name: Tilemap_Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2506,6 +2507,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1230781540
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230781536}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &1305031618
 GameObject:
   m_ObjectHideFlags: 0
