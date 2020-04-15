@@ -37,6 +37,8 @@ public class PlayerMovement : MonoBehaviour
 
         movement = new Vector2(moveHorizontal, moveVertical);
 
+        //criar  a modificação das animações
+
         rb2d.MovePosition(rb2d.position + movement.normalized * speed * Time.deltaTime);
     }
 
