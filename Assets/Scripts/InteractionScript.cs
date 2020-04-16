@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class InteractionScript : MonoBehaviour
 {
+    [Header("Items e NPCs interagíveis")]
     [SerializeField]
-    private List<string> m_InteractableTags;
+    private List<string> m_InteractableTags = new List<string> { "NPCs", "Items"};
     [SerializeField]
     private KeyCode m_KeyToInteract = KeyCode.E;
-    public bool m_OpenDialog = false;
 
     private bool m_TouchToInteract = false;
     private SpriteRenderer m_SpriteRenderer;
@@ -20,31 +20,31 @@ public class InteractionScript : MonoBehaviour
 
     private void Update()
     {
-
-        if (m_TouchToInteract && Input.GetKeyDown(m_KeyToInteract))
+        if (m_TouchToInteract)
         {
-            GetComponent<DialogTrigger>().ToggleDialog();
-        }
-
-        foreach (Touch touch in Input.touches)
-        {
-            if (touch.phase == TouchPhase.Began)
+            if (Input.GetKeyDown(m_KeyToInteract))
             {
-                Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-                touchPosition.z = 0;
-                float touchX = touchPosition.x;
-                float touchY = touchPosition.y;
-                float transformX = transform.position.x;
-                float transformY = transform.position.y;
-                float spriteX = m_SpriteRenderer.size.x;
-                float spriteY = m_SpriteRenderer.size.y * 2;
-                if (touchX > transformX - spriteX && touchX < transformX + spriteX && touchY > transformY - spriteY && touchY < transformY + spriteY && m_TouchToInteract)
+                GetComponent<DialogTrigger>().ToggleDialog();
+            }
+            foreach (Touch touch in Input.touches)
+            {
+                if (touch.phase == TouchPhase.Began)
                 {
-                    GetComponent<DialogTrigger>().ToggleDialog();
+                    Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+                    touchPosition.z = 0;
+                    float touchX = touchPosition.x;
+                    float touchY = touchPosition.y;
+                    float transformX = transform.position.x;
+                    float transformY = transform.position.y;
+                    float spriteX = m_SpriteRenderer.size.x;
+                    float spriteY = m_SpriteRenderer.size.y * 2;
+                    if (touchX > transformX - spriteX && touchX < transformX + spriteX && touchY > transformY - spriteY && touchY < transformY + spriteY && m_TouchToInteract)
+                    {
+                        GetComponent<DialogTrigger>().ToggleDialog();
+                    }
                 }
             }
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -73,14 +73,14 @@ public class InteractionScript : MonoBehaviour
 
     private void EnableInteraction(bool interaction)
     {
-        if (interaction)
-        {
-            GetComponentInChildren<Canvas>().enabled = true;
-        }
-        else
-        {
-            GetComponentInChildren<Canvas>().enabled = false;
-        }
+        //    if (interaction)
+        //    {
+        //        canvas.enabled = true;
+        //    }
+        //    else
+        //    {
+        //        canvas.enabled = false;
+        //    }
         m_TouchToInteract = interaction;
     }
 }

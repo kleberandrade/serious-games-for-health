@@ -5,9 +5,9 @@ using UnityEngine;
 public class ToggleJoystick : MonoBehaviour
 {
 
-    public void toggleJoystick()
+    public void toggleJoystick(bool enable)
     {
-        GetComponent<Canvas>().enabled = !GetComponent<Canvas>().enabled;
+        GetComponent<Canvas>().enabled = enable;
     }
 
 }
