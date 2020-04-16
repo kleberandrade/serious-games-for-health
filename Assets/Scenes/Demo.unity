@@ -134,9 +134,9 @@ GameObject:
   - component: {fileID: 12194563}
   - component: {fileID: 12194562}
   - component: {fileID: 12194561}
-  - component: {fileID: 12194560}
   - component: {fileID: 12194559}
   - component: {fileID: 12194558}
+  - component: {fileID: 12194560}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 726300496}
-  speed: 5
+  speed: 2
 --- !u!58 &12194561
 CircleCollider2D:
   m_ObjectHideFlags: 0
