@@ -28,6 +28,26 @@ public class PlayerMovement : MonoBehaviour
         angle = (angle + 360) % 360;
         Debug.Log(angle);
         animator.SetFloat("Angle", angle);
+        if (angle >= 135  && angle < 225) //Down
+        { 
+            moveHorizontal = 0;
+            moveVertical = -1;
+        }
+        if (angle >= 225 && angle < 315) //Left
+        {
+            moveHorizontal = -1;
+            moveVertical = 0;
+        }
+        if (angle >=315 || angle > 0 && angle < 45) //Up
+        {
+            moveHorizontal = 0;
+            moveVertical = 1;
+        }
+        if (angle >=45 && angle < 135) // Rigth
+        {
+            moveHorizontal = 1;
+            moveVertical = 0;
+        }
         movement = new Vector2(moveHorizontal, moveVertical);
         rb2d.MovePosition(rb2d.position + movement.normalized * speed * Time.deltaTime);
     }
