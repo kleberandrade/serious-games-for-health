@@ -188,8 +188,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 726300496}
-  speed: 2
+  speed: 3.75
   angle: 0
+  isRun: 0
+  direction: 0
 --- !u!58 &12194561
 CircleCollider2D:
   m_ObjectHideFlags: 0
