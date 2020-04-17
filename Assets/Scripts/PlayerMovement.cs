@@ -5,14 +5,15 @@ using UnityEditor;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public Joystick joystick;
-    public float speed = 3.75f;
+    [SerializeField]
+    private Joystick joystick;
+    private float speed = 3.75f;
     Animator animator;
-    public float angle;
-    public bool isRun;
-    public int direction;
-    public float horizontal;
-    public float vertical;
+    private float angle;
+    private bool isRun;
+    private int direction;
+    private float horizontal;
+    private float vertical;
 
     private Rigidbody2D rb2d;
 
