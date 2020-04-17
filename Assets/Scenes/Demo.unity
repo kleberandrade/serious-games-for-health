@@ -192,6 +192,10 @@ MonoBehaviour:
   angle: 0
   isRun: 0
   direction: 0
+  horizontal: 0
+  horizontalSpeed: 0
+  vertical: 0
+  verticalSpeed: 0
 --- !u!58 &12194561
 CircleCollider2D:
   m_ObjectHideFlags: 0

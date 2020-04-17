@@ -6,11 +6,13 @@ using UnityEditor;
 public class PlayerMovement : MonoBehaviour
 {
     public Joystick joystick;
-    public float speed = 7f;
+    public float speed = 3.75f;
     Animator animator;
     public float angle;
     public bool isRun;
     public int direction;
+    public float horizontal;
+    public float vertical;
 
     private Rigidbody2D rb2d;
 
@@ -18,40 +20,42 @@ public class PlayerMovement : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = gameObject.GetComponent<Animator>();
+        
     }
     void Update()
     {
+        horizontal = Input.GetAxis("Horizontal");
+        vertical = Input.GetAxis("Vertical"); //Caso o jogador utilize teclado
         Vector2 movement = Vector2.zero;
-
         float moveHorizontal = joystick.Horizontal;
         float moveVertical = joystick.Vertical;
         angle = Mathf.Atan2(moveHorizontal, moveVertical) * Mathf.Rad2Deg; //criando uma variavel de angulo
-        angle = (angle + 360) % 360;
-        if (angle >= 135  && angle < 225) //Down
+        angle = (angle + 360) % 360; // transformando em 360
+        if ((angle >= 135  && angle < 225) || vertical == -1)  //Down
         { 
             moveHorizontal = 0;
             moveVertical = -1;
             direction = 1;
 }
-        if (angle >= 225 && angle < 315) //Left
+        if (angle >= 225 && angle < 315 || horizontal == -1) //Left
         {
             moveHorizontal = -1;
             moveVertical = 0;
             direction = 2;
         }
-        if (angle >=315 || angle > 0 && angle < 45) //Up
+        if (angle >=315 || angle > 0 && angle < 45|| vertical == 1) //Up
         {
             moveHorizontal = 0;
             moveVertical = 1;
             direction = 3;
         }
-        if (angle >=45 && angle < 135) // Rigth
+        if (angle >=45 && angle < 135 || horizontal == 1) // Right
         {
             moveHorizontal = 1;
             moveVertical = 0;
             direction = 4;
         }
-        if (moveVertical == 0 && moveHorizontal == 0)
+        if ((horizontal == 0 && vertical == 0) && (moveVertical == 0 && moveHorizontal== 0))
         {
             isRun = false;
         }
@@ -62,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsRun", isRun);
         animator.SetInteger("Direction", direction);
         movement = new Vector2(moveHorizontal, moveVertical);
+
         rb2d.MovePosition(rb2d.position + movement.normalized * speed * Time.deltaTime);
     }
 }
