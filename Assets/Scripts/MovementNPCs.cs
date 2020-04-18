@@ -4,43 +4,49 @@ using UnityEngine;
 
 public class MovementNPCs : MonoBehaviour
 {
-    [SerializeField]
-    //private Joystick joystick;
-    private float speed = 3.75f;
-    //Animator animator;
-    private bool isRun;
+    [SerializeField] private Transform[] waypoints;
+    private int index = 0;
+    private float distancia = 0.05f;
+    private float velocidade = 2;
+    private Vector2 direcao;
 
-    private Rigidbody2D rb2d;
-
-    private void Start()
+    private void FixedUpdate()
     {
-        rb2d = GetComponent<Rigidbody2D>();
-        //animator = gameObject.GetComponent<Animator>();
-
+        Movimento();
     }
-    void Update()
+
+    private void Movimento()
     {
-        Vector2 movement = Vector2.zero;
-        float moveHorizontal = 1;
-        if (moveHorizontal == -1) // parado
+        transform.position = Vector3.MoveTowards(transform.position, waypoints[index].position, velocidade * Time.deltaTime);
+        if (Vector3.Distance(transform.position, waypoints[index].position) <= distancia)
         {
+            Pause();
+            index++;
+            if (index >= waypoints.Length)
+            {
+                index = 0;
+            }
         }
-        else
-        {
-            isRun = true;
-        }
-        //animator.SetBool("IsRun", isRun);
-       // animator.SetInteger("Direction", direction);
-        movement = new Vector2(moveHorizontal, transform.position.y);
-
-        rb2d.MovePosition(rb2d.position + movement.normalized * speed * Time.deltaTime);
     }
-private void OnTriggerEnter2D(Collider2D collision) //PROVISORIO
+    public void Pause()
+    {
+        StartCoroutine(PauseCoroutine());
+    }
+    public IEnumerator PauseCoroutine()
+    {
+        velocidade = 0;
+        yield return new WaitForSeconds(5.0f);
+        velocidade = 2;
+    }
+    private void OnTriggerEnter2D(Collider2D collision) //PROVISORIO
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("ALGUEM TIRA ESSA CRIANÇA DAQUI, EU NÃO AGUENTO MAIS");
+            //pegar o objeto interaction do player
         }
-        isRun = false;
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        velocidade = 2;
     }
 }
