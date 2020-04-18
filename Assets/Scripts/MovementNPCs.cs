@@ -8,10 +8,11 @@ public class MovementNPCs : MonoBehaviour
     private int index = 0;
     private float distancia = 0.05f;
     private float velocidade = 2;
-    private Vector2 direcao;
+    private PlayerInteraction player;
 
     private void FixedUpdate()
     {
+        player = gameObject.GetComponent<PlayerInteraction>();
         Movimento();
     }
 
@@ -20,7 +21,10 @@ public class MovementNPCs : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, waypoints[index].position, velocidade * Time.deltaTime);
         if (Vector3.Distance(transform.position, waypoints[index].position) <= distancia)
         {
-            Pause();
+            if (waypoints[index].CompareTag("WaypointParada"))
+            {
+                Pause();
+            }
             index++;
             if (index >= waypoints.Length)
             {
@@ -42,7 +46,7 @@ public class MovementNPCs : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            //pegar o objeto interaction do player
+            velocidade = 0;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
