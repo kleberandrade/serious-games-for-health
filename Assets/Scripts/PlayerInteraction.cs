@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    private GameObject interaction = null;
+    public GameObject interaction = null;
     private PlayerMovement PlayerMovement;
     private GameObject joystick;
 
