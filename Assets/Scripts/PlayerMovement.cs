@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
     private Joystick joystick;
-    private float speed = 3.75f;
+    private float speed = 5.75f;
     Animator animator;
     private float angle;
     private bool isRun;

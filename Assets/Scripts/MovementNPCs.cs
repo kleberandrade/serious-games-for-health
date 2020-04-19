@@ -24,6 +24,7 @@ public class MovementNPCs : MonoBehaviour
     private void Update()
     {
         animator.SetFloat("Velocidade", velocidade);
+        animator.SetInteger("Direction", index);
     }
     private void Movimento()
     {
