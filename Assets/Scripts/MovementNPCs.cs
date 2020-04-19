@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using UnityEngine;
 
 public class MovementNPCs : MonoBehaviour
@@ -9,13 +10,21 @@ public class MovementNPCs : MonoBehaviour
     private float distancia = 0.05f;
     private float velocidade = 2;
     private PlayerInteraction player;
+    Animator animator;
 
+    private void Start()
+    {
+        animator = gameObject.GetComponent<Animator>();
+    }
     private void FixedUpdate()
     {
         player = gameObject.GetComponent<PlayerInteraction>();
         Movimento();
     }
-
+    private void Update()
+    {
+        animator.SetFloat("Velocidade", velocidade);
+    }
     private void Movimento()
     {
         transform.position = Vector3.MoveTowards(transform.position, waypoints[index].position, velocidade * Time.deltaTime);
