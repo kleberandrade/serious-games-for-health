@@ -15,7 +15,7 @@ public class PlayerInteraction : MonoBehaviour
     private void Update()
     {
 
-        conversoucomasecretaria22 = GameObject.Find("NPCs_8").GetComponent<DialogTrigger>().conversoucomasecretaria;
+        conversoucomasecretaria22 = GameObject.Find("Secretaria").GetComponent<DialogTrigger>().talked;
         if (Input.touchCount > 0 && interaction  && conversoucomasecretaria22 == true)
         {
             Touch touch = Input.GetTouch(0);

@@ -6,7 +6,7 @@ public class DialogTrigger : MonoBehaviour
 {
 
     public Dialog m_Dialog;
-    public bool conversoucomasecretaria = false;
+    public bool talked = false;
 
     private void Start()
     {
@@ -14,9 +14,9 @@ public class DialogTrigger : MonoBehaviour
     }
     public void ToggleDialog()
     {
-        if (this.gameObject.name == "NPCs_8")
+        if (this.gameObject.name == "Secretaria")
         {
-            conversoucomasecretaria = true;
+            talked = true;
         }
         DialogManager.Instance.BeginDialog(m_Dialog);
     }
