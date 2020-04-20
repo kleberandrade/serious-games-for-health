@@ -9,7 +9,6 @@ public class MovementNPCs : MonoBehaviour
     private int index = 0;
     private float distancia = 0.05f;
     private float velocidade = 2;
-    private PlayerInteraction player;
     Animator animator;
 
     private void Start()
@@ -18,7 +17,6 @@ public class MovementNPCs : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        player = gameObject.GetComponent<PlayerInteraction>();
         Movimento();
     }
     private void Update()

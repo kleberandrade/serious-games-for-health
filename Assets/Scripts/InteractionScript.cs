@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InteractionScript : MonoBehaviour
 {
@@ -49,7 +50,7 @@ public class InteractionScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        foreach(string interactable in m_InteractableTags)
+        foreach (string interactable in m_InteractableTags)
         {
             if (collision.CompareTag(interactable))
             {
