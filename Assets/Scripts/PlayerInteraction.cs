@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerInteraction : MonoBehaviour
 {
     public GameObject interaction = null;
-    public bool conversoucomasecretaria22 = false;
+    public bool talked = false;
     public void Start()
     {
         
@@ -15,8 +15,8 @@ public class PlayerInteraction : MonoBehaviour
     private void Update()
     {
 
-        conversoucomasecretaria22 = GameObject.Find("Secretaria").GetComponent<DialogTrigger>().talked;
-        if (Input.touchCount > 0 && interaction  && conversoucomasecretaria22 == true)
+        talked = GameObject.Find("Secretaria").GetComponent<DialogTrigger>().talked;
+        if (Input.touchCount > 0 && interaction  && talked == true)
         {
             Touch touch = Input.GetTouch(0);
             Vector2 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
@@ -33,7 +33,7 @@ public class PlayerInteraction : MonoBehaviour
                 }
             }
         }
-        if (Input.GetKeyDown(KeyCode.E) && interaction && conversoucomasecretaria22 == true)
+        if (Input.GetKeyDown(KeyCode.E) && interaction && talked == true)
         {
             if (interaction.CompareTag("Porta"))
             {
