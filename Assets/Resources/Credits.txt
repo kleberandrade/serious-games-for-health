@@ -28,6 +28,8 @@ Leonardo Dantas
 
 t:Game Writers
 Evaldo Araujo
+
+t:Loca
 Marina Demori
 
 t:Sound Designer
