@@ -69,8 +69,7 @@ public class DialogManager : MonoBehaviour
 
     public IEnumerator FirstSentence()
     {
-        if (m_Sentences.Count == 1) m_SkipText.text = "CLOSE";
-        else m_SkipText.text = "NEXT";
+        m_SkipText.text = "NEXT";
 
         m_SentenceText.text = string.Empty;
         yield return new WaitForSeconds(0.5f);
@@ -86,12 +85,11 @@ public class DialogManager : MonoBehaviour
             return;
         }
 
-        if (m_Sentences.Count == 1) m_SkipText.text = "CLOSE";
-        else m_SkipText.text = "NEXT";
+        m_SkipText.text = m_Sentences.Count == 1 ? "CLOSE" : "NEXT";
 
         var sentence = m_Sentences.Dequeue();
         StopAllCoroutines();
-        StartCoroutine(WriteSentece(sentence));
+        StartCoroutine(WriteSentence(sentence));
     }
 
     public void CloseDialog()
@@ -100,8 +98,9 @@ public class DialogManager : MonoBehaviour
         ToggleJoystickCanvas(true);
     }
 
-    private IEnumerator WriteSentece(DialogSentence sentence)
+    private IEnumerator WriteSentence(DialogSentence sentence)
     {
+        m_NameText.text = sentence.m_SpeakerName;
         m_SentenceText.text = string.Empty;
         foreach (char letter in sentence.m_Text.ToCharArray())
         {
@@ -127,4 +126,5 @@ public class DialogSentence
 {
     [TextArea(1, 10)]
     public string m_Text;
+    public string m_SpeakerName;
 }

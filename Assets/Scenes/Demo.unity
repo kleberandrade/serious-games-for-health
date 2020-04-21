@@ -4525,7 +4525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2e1d80793556d049a352513869496e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayGridGizmos: 1
+  displayGridGizmos: 0
   unwalkableMask:
     serializedVersion: 2
     m_Bits: 512
@@ -4636,8 +4636,11 @@ MonoBehaviour:
     m_CharacterImage: {fileID: 0}
     m_Sentences:
     - m_Text: Teste 6
+      m_SpeakerName: NPC
     - m_Text: Teste 7
+      m_SpeakerName: NPC
     - m_Text: Teste 8
+      m_SpeakerName: NPC
   talked: 0
 --- !u!61 &1515092179
 BoxCollider2D:
@@ -5321,8 +5324,11 @@ MonoBehaviour:
     m_CharacterImage: {fileID: 21300000, guid: 707b456cd70cb7e4e9687f2cc542030d, type: 3}
     m_Sentences:
     - m_Text: "Ol\xE1"
+      m_SpeakerName: "Secret\xE1ria"
     - m_Text: "Ol\xE1"
+      m_SpeakerName: "Voc\xEA"
     - m_Text: Tudo bem?
+      m_SpeakerName: "Secret\xE1ria"
   talked: 0
 --- !u!61 &2127652184
 BoxCollider2D:
