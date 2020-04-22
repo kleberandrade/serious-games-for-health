@@ -610,7 +610,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -11
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -2556,6 +2556,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2050155266774371916, guid: 372ba221ea6527e439213ab9fe5ab633,
+        type: 3}
+      propertyPath: m_Name
+      value: Continue Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 2050155266774371923, guid: 372ba221ea6527e439213ab9fe5ab633,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2050155266898026592, guid: 372ba221ea6527e439213ab9fe5ab633,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -2669,7 +2679,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.078125, y: 0.25, z: 0}
   m_MaxChunkCount: 16
@@ -3438,7 +3448,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -11
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -5238,7 +5248,7 @@ MonoBehaviour:
     m_CharacterImage: {fileID: 0}
     m_Sentences:
     - m_Text: Vou beber agua
-      m_SpeakerName: 
+      m_SpeakerName: "Voc\xEA"
   talked: 0
 --- !u!114 &2031371060
 MonoBehaviour:
