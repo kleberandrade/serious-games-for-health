@@ -1,5 +1,6 @@
-t:Producer
-Kleber de Oliveira
+t:Game Designers
+Daniele Arruda
+Leonardo Dantas
 
 t:Programmers
 Gabriel Cassimiro
@@ -8,28 +9,28 @@ Leonardo Dantas
 Tiago Carnevalli
 Vinicius Lima
 
-t:Designers
-Athus Goncalves
+t:Artists
 Erik Riccioppo
 Gustavo Dilarri
-Matheus D'Luca
+
+t:Pixel Artists
+Athus Goncalves
 Rafael Lee
 
-t:Game Designers
-Daniele Arruda
-Leonardo Dantas
+t:UI Artist
+Matheus D'Luca
 
 t:Level Designer
 Leonardo Dantas
 
 t:Tech Artists
-Gabriel Cassimiro
+Lana Schimitez
 Leonardo Dantas
 
-t:Game Writers
+t:Writer
 Evaldo Araujo
 
-t:Loca
+t:Localization
 Marina Demori
 
 t:Sound Designer
