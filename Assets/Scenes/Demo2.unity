@@ -1649,6 +1649,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &742803876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 742803878}
+  - component: {fileID: 742803877}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &742803877
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742803876}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &742803878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742803876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.45, y: 0.26, z: -3.2408853}
+  m_LocalScale: {x: 1, y: 6.5375, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &817551957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1850,8 +1907,72 @@ MonoBehaviour:
     m_PlayerImage: {fileID: 21300000, guid: b49b5e888825ae84f82d5459884bfc57, type: 3}
     m_CharacterImage: {fileID: 21300000, guid: d16f318003ee3a4458b80395dfbbb238, type: 3}
     m_Sentences:
-    - m_Text: teste
-    - m_Text: teste
+    - m_Text: "Ol\xE1! Fiquei sabendo que voc\xEA \xE9 uma explorador. O que voc\xEA
+        j\xE1 descobriu hoje? "
+      m_SpeakerName: Doutor
+    - m_Text: "Muita coisa! Descobri que todo dia vem pessoas aqui, falam com a Recepcionista
+        e ficam esperando ser chamado. S\xE3o pessoas diferentes. "
+      m_SpeakerName: Amachi
+    - m_Text: "Muito bem! Isso mesmo. Voc\xEA sabe por que elas ficam esperando? "
+      m_SpeakerName: Doutor
+    - m_Text: "Para falar com voc\xEA!"
+      m_SpeakerName: Amachi
+    - m_Text: "Muito bom! Mas voc\xEA sabe por que elas v\xEAm aqui para falar comigo?
+        Voc\xEA sabe por que voc\xEA vem aqui? "
+      m_SpeakerName: Doutor
+    - m_Text: "N\xE3o! Ainda n\xE3o consegui descobrir. Mas vou descobrir. "
+      m_SpeakerName: Amachi
+    - m_Text: " Muito bem! Continue assim, que voc\xEA ser\xE1 uma excelente explorador.
+        No entanto, vou te ajudar com algumas informa\xE7\xF5es. Nos estamos em uma
+        Clinica de Sa\xFAde. Voc\xEA sabe o que \xE9 isso? "
+      m_SpeakerName: Doutor
+    - m_Text: "\xC9 um lugar que cuida de pessoas."
+      m_SpeakerName: Amachi
+    - m_Text: "Exato. Parab\xE9ns! Aqui, n\xF3s cuidamos de pessoas que tem algumas
+        doen\xE7as. Como: Asma, Hipertens\xE3o, Diabete e AIDS.  "
+      m_SpeakerName: Doutor
+    - m_Text: "Asma, Hipertens\xE3o, Diabete e AIDS? "
+      m_SpeakerName: Amachi
+    - m_Text: " Sim! Voc\xEA sabe o que \xE9 cada doen\xE7a? "
+      m_SpeakerName: Doutor
+    - m_Text: "N\xE3o!"
+      m_SpeakerName: Amachi
+    - m_Text: "Hora de aprender ent\xE3o. Vamos come\xE7ar pela ASMA. "
+      m_SpeakerName: Doutor
+    - m_Text: "Essa doen\xE7a esta ligada com a capacidade de respirar. Algumas pessoas
+        possuem alergia a determinados tipos de \u201Ccoisas\u201D, como por exemplo:
+        Pelo de animais, poeira, fumo e outras coisas. "
+      m_SpeakerName: Doutor
+    - m_Text: Ahn... Certo.
+      m_SpeakerName: Amachi
+    - m_Text: " Quando uma pessoa que tem alergia entra em contato com esses \u201Cagentes\u201D,
+        ela entra em uma Crise. "
+      m_SpeakerName: Doutor
+    - m_Text: 'Crise? O que seria uma crise? '
+      m_SpeakerName: Amachi
+    - m_Text: "\xC9 quando uma pessoa que tem alergia a alguma coisa, entra em contato
+        com essa coisa. Durante a crise, a pessoa pode se sentir muito cansada, ter
+        a respira\xE7\xE3o acelerada e muita tosse."
+      m_SpeakerName: Doutor
+    - m_Text: " \xC0s vezes a pessoa pode ter tamb\xE9m dificuldade para respirar,
+        o que chamamos de Sibil\xE2ncia. "
+      m_SpeakerName: Doutor
+    - m_Text: "Sibil\xE2ncia? O que seria isso?"
+      m_SpeakerName: Amachi
+    - m_Text: "\xC9 um assobio agudo que a pessoa faz quando tenta respirar. "
+      m_SpeakerName: Doutor
+    - m_Text: "Eu sei o que \xE9 isso! \nQuando vou brincar com cachorro eu passo
+        mal e meu papai fala que fico fazendo um barulho estranho quando respiro. "
+      m_SpeakerName: Amachi
+    - m_Text: "Exatamente. A cura para essa doen\xE7a da respira\xE7\xE3o n\xE3o
+        existe, mas tem tratamento. Se a pessoa fizer todo o tratamento correto,
+        ser\xE1 muito dif\xEDcil ela passar mal. "
+      m_SpeakerName: Doutor
+    - m_Text: "Humm. Acho que entendi. Asma \xE9 quando a pessoa tem dificuldade
+        para respirar"
+      m_SpeakerName: Amachi
+    - m_Text: Isso mesmo!
+      m_SpeakerName: Doutor
   talked: 0
 --- !u!212 &855050080
 SpriteRenderer:
@@ -2503,6 +2624,182 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &1496821546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1496821547}
+  - component: {fileID: 1496821549}
+  - component: {fileID: 1496821548}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1496821547
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496821546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1545303926}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 800, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1496821548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496821546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 80
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "VOC\xCA APRENDEU SOBRE ASMA!"
+--- !u!222 &1496821549
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496821546}
+  m_CullTransparentMesh: 0
+--- !u!1 &1545303922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1545303926}
+  - component: {fileID: 1545303925}
+  - component: {fileID: 1545303924}
+  - component: {fileID: 1545303923}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1545303923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545303922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1545303924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545303922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1545303925
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545303922}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1545303926
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545303922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1496821547}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1581356766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2603,7 +2900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interaction: {fileID: 0}
-  conversoucomasecretaria22: 0
+  talked: 0
 --- !u!58 &1692873538
 CircleCollider2D:
   m_ObjectHideFlags: 0
