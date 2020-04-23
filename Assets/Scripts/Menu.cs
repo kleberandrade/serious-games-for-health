@@ -5,8 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    public GameObject sound;
+
+    public void Start()
+    {
+        sound = GameObject.Find("Sound");
+    }
     public void Play()
     {
+        Destroy(sound);
         SceneManager.LoadScene("Demo");
     }
 
