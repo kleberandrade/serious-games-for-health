@@ -2068,15 +2068,15 @@ MonoBehaviour:
     - m_Text: "Ol\xE1! Fiquei sabendo que voc\xEA \xE9 uma explorador. O que voc\xEA
         j\xE1 descobriu hoje? "
       m_SpeakerName: Doutor
-    - m_Text: "Muita coisa! Descobri que todo dia vem pessoas aqui, falam com a Recepcionista
-        e ficam esperando ser chamado. S\xE3o pessoas diferentes. "
+    - m_Text: "Muita coisa! Descobri que todos os dias vem pessoas aqui, falam com
+        a recepcionista e ficam esperando para serem chamados. S\xE3o pessoas diferentes. "
       m_SpeakerName: Amachi
     - m_Text: "Muito bem! Isso mesmo. Voc\xEA sabe por que elas ficam esperando? "
       m_SpeakerName: Doutor
     - m_Text: "Para falar com voc\xEA!"
       m_SpeakerName: Amachi
-    - m_Text: "Muito bom! Mas voc\xEA sabe por que elas v\xEAm aqui para falar comigo?
-        Voc\xEA sabe por que voc\xEA vem aqui? "
+    - m_Text: "Muito bom! Mas voc\xEA sabe por que elas encaminham-se at\xE9 aqui
+        para falarem comigo? Voc\xEA sabe por qu\xEA voc\xEA vem aqui?"
       m_SpeakerName: Doutor
     - m_Text: "N\xE3o! Ainda n\xE3o consegui descobrir. Mas vou descobrir. "
       m_SpeakerName: Amachi
@@ -2087,7 +2087,7 @@ MonoBehaviour:
     - m_Text: "\xC9 um lugar que cuida de pessoas."
       m_SpeakerName: Amachi
     - m_Text: "Exato. Parab\xE9ns! Aqui, n\xF3s cuidamos de pessoas que tem algumas
-        doen\xE7as. Como: Asma, Hipertens\xE3o, Diabete e AIDS.  "
+        doen\xE7as, como: Asma, Hipertens\xE3o, Diabete e AIDS.  "
       m_SpeakerName: Doutor
     - m_Text: "Asma, Hipertens\xE3o, Diabete e AIDS? "
       m_SpeakerName: Amachi
@@ -2097,25 +2097,25 @@ MonoBehaviour:
       m_SpeakerName: Amachi
     - m_Text: "Hora de aprender ent\xE3o. Vamos come\xE7ar pela ASMA. "
       m_SpeakerName: Doutor
-    - m_Text: "Essa doen\xE7a esta ligada com a capacidade de respirar. Algumas pessoas
-        possuem alergia a determinados tipos de \u201Ccoisas\u201D, como por exemplo:
-        Pelo de animais, poeira, fumo e outras coisas. "
+    - m_Text: "Essa doen\xE7a est\xE1 ligada com a capacidade de respirar. Algumas
+        pessoas possuem alergia a determinados tipos de \u201Ccoisas\u201D, como
+        por exemplo: P\xEAlo de animais, poeira, fumo e outras coisas. "
       m_SpeakerName: Doutor
     - m_Text: Ahn... Certo.
       m_SpeakerName: Amachi
     - m_Text: " Quando uma pessoa que tem alergia entra em contato com esses \u201Cagentes\u201D,
-        ela entra em uma Crise. "
+        ela entra em uma crise de ASMA. "
       m_SpeakerName: Doutor
-    - m_Text: 'Crise? O que seria uma crise? '
+    - m_Text: "Crise? O qu\xEA seria uma crise? "
       m_SpeakerName: Amachi
-    - m_Text: "\xC9 quando uma pessoa que tem alergia a alguma coisa, entra em contato
-        com essa coisa. Durante a crise, a pessoa pode se sentir muito cansada, ter
+    - m_Text: "\xC9 quando uma pessoa que tem alergia a algo, entra em contato com
+        \"tal coisa\". Durante a crise, a pessoa pode se sentir muito cansada, ter
         a respira\xE7\xE3o acelerada e muita tosse."
       m_SpeakerName: Doutor
     - m_Text: " \xC0s vezes a pessoa pode ter tamb\xE9m dificuldade para respirar,
         o que chamamos de Sibil\xE2ncia. "
       m_SpeakerName: Doutor
-    - m_Text: "Sibil\xE2ncia? O que seria isso?"
+    - m_Text: "Sibil\xE2ncia? O qu\xEA \xE9 isso?"
       m_SpeakerName: Amachi
     - m_Text: "\xC9 um assobio agudo que a pessoa faz quando tenta respirar. "
       m_SpeakerName: Doutor
@@ -2127,9 +2127,10 @@ MonoBehaviour:
         ser\xE1 muito dif\xEDcil ela passar mal. "
       m_SpeakerName: Doutor
     - m_Text: "Humm. Acho que entendi. Asma \xE9 quando a pessoa tem dificuldade
-        para respirar"
+        para respirar."
       m_SpeakerName: Amachi
-    - m_Text: Isso mesmo!
+    - m_Text: "Isso mesmo! Agora pode falar com a enfermeira e ela te ensinar\xE1
+        mais coisas"
       m_SpeakerName: Doutor
   talked: 0
 --- !u!212 &855050080
