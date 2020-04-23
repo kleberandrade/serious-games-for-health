@@ -2566,6 +2566,11 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2050155266774371923, guid: 372ba221ea6527e439213ab9fe5ab633,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2050155266898026592, guid: 372ba221ea6527e439213ab9fe5ab633,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -5245,7 +5250,7 @@ MonoBehaviour:
     m_BackgroundImage: {fileID: 21300000, guid: 2dfafd738c8e8c147bfecc23a467c9b4,
       type: 3}
     m_PlayerImage: {fileID: 21300000, guid: b49b5e888825ae84f82d5459884bfc57, type: 3}
-    m_CharacterImage: {fileID: 0}
+    m_CharacterImage: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
     m_Sentences:
     - m_Text: Vou beber agua
       m_SpeakerName: "Voc\xEA"
@@ -5263,7 +5268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractableTags:
-  - NPCs
+  - Player
   - Items
   m_KeyToInteract: 101
 --- !u!61 &2031371061

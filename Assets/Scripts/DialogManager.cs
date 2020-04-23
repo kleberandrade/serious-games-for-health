@@ -96,6 +96,7 @@ public class DialogManager : MonoBehaviour
     {
         OpenDialogAnimation(false);
         ToggleJoystickCanvas(true);
+        m_SkipText.text = "";
     }
 
     private IEnumerator WriteSentence(DialogSentence sentence)
