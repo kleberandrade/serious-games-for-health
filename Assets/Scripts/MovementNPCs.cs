@@ -10,6 +10,7 @@ public class MovementNPCs : MonoBehaviour
     private float distancia = 0.05f;
     private float velocidade = 2;
     Animator animator;
+    private GameObject player = null;
 
     private void Start()
     {
@@ -48,17 +49,26 @@ public class MovementNPCs : MonoBehaviour
     {
         velocidade = 0;
         yield return new WaitForSeconds(5.0f);
-        velocidade = 2;
+        if (player)
+        {
+            velocidade = 0;
+        }
+        else
+        {
+            velocidade = 2;
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision) //PROVISORIO
     {
         if (collision.CompareTag("Player"))
         {
+            player = collision.gameObject;
             velocidade = 0;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         velocidade = 2;
+        player = null;
     }
 }

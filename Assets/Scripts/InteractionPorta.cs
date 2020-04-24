@@ -4,19 +4,14 @@ using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerInteraction : MonoBehaviour
+public class InteractionPorta : MonoBehaviour
 {
     public GameObject interaction = null;
     public bool talked = false;
-    public void Start()
-    {
-        
-    }
     private void Update()
     {
-
         talked = GameObject.Find("Secretaria").GetComponent<DialogTrigger>().talked;
-        if (Input.touchCount > 0 && interaction  && talked == true)
+        if (Input.touchCount > 0 && interaction && talked == true)
         {
             Touch touch = Input.GetTouch(0);
             Vector2 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
@@ -49,7 +44,7 @@ public class PlayerInteraction : MonoBehaviour
             interaction = other.gameObject;
         }
     }
-        
+
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Porta"))
