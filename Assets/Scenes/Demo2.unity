@@ -1675,72 +1675,78 @@ MonoBehaviour:
     m_PlayerImage: {fileID: 21300000, guid: b49b5e888825ae84f82d5459884bfc57, type: 3}
     m_CharacterImage: {fileID: 21300000, guid: 5c0a24dce590aa940942ef67d1c6e232, type: 3}
     m_Sentences:
-    - m_Text: "Ol\xE1! Fiquei sabendo que voc\xEA \xE9 uma explorador. O que voc\xEA
-        j\xE1 descobriu hoje? "
-      m_SpeakerName: Doutor
-    - m_Text: "Muita coisa! Descobri que todo dia vem pessoas aqui, falam com a Recepcionista
-        e ficam esperando ser chamado. S\xE3o pessoas diferentes. "
+    - m_Text: "Ol\xE1! O Doutor disse que eu podia aprender coisas novas com voc\xEA!"
       m_SpeakerName: Amachi
-    - m_Text: "Muito bem! Isso mesmo. Voc\xEA sabe por que elas ficam esperando? "
-      m_SpeakerName: Doutor
-    - m_Text: "Para falar com voc\xEA!"
+    - m_Text: "Ol\xE1! Pode sim, o qu\xEA voc\xEA gostaria de saber?"
+      m_SpeakerName: Enfermeira
+    - m_Text: "Hipertens\xE3o ? O qu\xEA \xE9 isso? "
       m_SpeakerName: Amachi
-    - m_Text: "Muito bom! Mas voc\xEA sabe por que elas v\xEAm aqui para falar comigo?
-        Voc\xEA sabe por que voc\xEA vem aqui? "
-      m_SpeakerName: Doutor
-    - m_Text: "N\xE3o! Ainda n\xE3o consegui descobrir. Mas vou descobrir. "
+    - m_Text: "Hipertens\xE3o \xE9 quando o nivel de press\xE3o sanguinea nas art\xE9rias
+        est\xE3o elevados, impedindo do sangue ser bombeado pelo ser corpo. "
+      m_SpeakerName: Enfermeira
+    - m_Text: "N\xE3o entendi. O que \xE9 arteria? Press\xE3o? Sangue?"
       m_SpeakerName: Amachi
-    - m_Text: " Muito bem! Continue assim, que voc\xEA ser\xE1 uma excelente explorador.
-        No entanto, vou te ajudar com algumas informa\xE7\xF5es. Nos estamos em uma
-        Clinica de Sa\xFAde. Voc\xEA sabe o que \xE9 isso? "
-      m_SpeakerName: Doutor
-    - m_Text: "\xC9 um lugar que cuida de pessoas."
+    - m_Text: ' Vamos imaginar o seguinte. Na sua casa tem Jardim?'
+      m_SpeakerName: Enfermeira
+    - m_Text: Tem!
       m_SpeakerName: Amachi
-    - m_Text: "Exato. Parab\xE9ns! Aqui, n\xF3s cuidamos de pessoas que tem algumas
-        doen\xE7as. Como: Asma, Hipertens\xE3o, Diabete e AIDS.  "
-      m_SpeakerName: Doutor
-    - m_Text: "Asma, Hipertens\xE3o, Diabete e AIDS? "
+    - m_Text: "O seu papai ou mam\xE3e est\xE3o sempre regando o jardim?"
+      m_SpeakerName: Enfermeira
+    - m_Text: Sim!
+      m_SpeakerName: Aamchi
+    - m_Text: Eles utilizam uma mangueira para molhar todas as flores.
       m_SpeakerName: Amachi
-    - m_Text: " Sim! Voc\xEA sabe o que \xE9 cada doen\xE7a? "
+    - m_Text: "Muito bem. Agora imagina, que dentro de voc\xEA existem v\xE1rias
+        flores e plantas quee precisam ser regadas."
       m_SpeakerName: Doutor
-    - m_Text: "N\xE3o!"
+    - m_Text: Eu sou um Jardim!
       m_SpeakerName: Amachi
-    - m_Text: "Hora de aprender ent\xE3o. Vamos come\xE7ar pela ASMA. "
-      m_SpeakerName: Doutor
-    - m_Text: "Essa doen\xE7a esta ligada com a capacidade de respirar. Algumas pessoas
-        possuem alergia a determinados tipos de \u201Ccoisas\u201D, como por exemplo:
-        Pelo de animais, poeira, fumo e outras coisas. "
-      m_SpeakerName: Doutor
-    - m_Text: Ahn... Certo.
+    - m_Text: "Quase isso. No lugar de flores e plantas, dentro do seu corpo h\xE1
+        v\xE1rios org\xE3os, que s\xE3o como plantas e flores, que devem ser bem
+        cuidados e regados."
+      m_SpeakerName: Enfermeira
+    - m_Text: Entendi.
       m_SpeakerName: Amachi
-    - m_Text: " Quando uma pessoa que tem alergia entra em contato com esses \u201Cagentes\u201D,
-        ela entra em uma Crise. "
-      m_SpeakerName: Doutor
-    - m_Text: 'Crise? O que seria uma crise? '
+    - m_Text: "No jardim da sua casa o seu papai ou mam\xE3e utilizam a mangueira
+        para molhar com \xE1gua as flores e plantas. Dentro do seu corpo \xE9 utilizado
+        sangue para regar os org\xE3os. "
+      m_SpeakerName: Enfermeira
+    - m_Text: " E dentro do seu corpo existem in\xFAmeras mangueiras que levam sangue
+        para os org\xE3os. Essas mangueiras s\xE3o chamadas de art\xE9ria. "
+      m_SpeakerName: Enfermeira
+    - m_Text: "Quando o seu papai vai regar o jardim e a mangueira \xE9 dobrada ou
+        apertada, o que acontece?"
+      m_SpeakerName: Enfermeira
+    - m_Text: "N\xE3o sai \xE1gua na ponta da mangueira e a plantas n\xE3o s\xE3o
+        regadas."
       m_SpeakerName: Amachi
-    - m_Text: "\xC9 quando uma pessoa que tem alergia a alguma coisa, entra em contato
-        com essa coisa. Durante a crise, a pessoa pode se sentir muito cansada, ter
-        a respira\xE7\xE3o acelerada e muita tosse."
-      m_SpeakerName: Doutor
-    - m_Text: " \xC0s vezes a pessoa pode ter tamb\xE9m dificuldade para respirar,
-        o que chamamos de Sibil\xE2ncia. "
-      m_SpeakerName: Doutor
-    - m_Text: "Sibil\xE2ncia? O que seria isso?"
+    - m_Text: " Exatamente. E isso acontece com as art\xE9rias tamb\xE9m. "
+      m_SpeakerName: Enfermeira
+    - m_Text: Com as arterias?
       m_SpeakerName: Amachi
-    - m_Text: "\xC9 um assobio agudo que a pessoa faz quando tenta respirar. "
-      m_SpeakerName: Doutor
-    - m_Text: "Eu sei o que \xE9 isso! \nQuando vou brincar com cachorro eu passo
-        mal e meu papai fala que fico fazendo um barulho estranho quando respiro. "
+    - m_Text: "Sim! Se n\xF3s n\xE3o cuidarmos do nosso corpo e sa\xFAde, nossas
+        art\xE9rias ser\xE3o prejudicadas. "
+      m_SpeakerName: Enfermeira
+    - m_Text: "S\xE3o v\xE1rios fatores que podem levar uma pessoa a ter hipertens\xE3o,
+        como: se ela consome muita comida salgada, se fica estressada em v\xE1rios
+        momentos. "
+      m_SpeakerName: Enfermeira
+    - m_Text: "Papai fica bravo todo dia quando abre o jornal para ler. Ele tem hipertens\xE3o?"
       m_SpeakerName: Amachi
-    - m_Text: "Exatamente. A cura para essa doen\xE7a da respira\xE7\xE3o n\xE3o
-        existe, mas tem tratamento. Se a pessoa fizer todo o tratamento correto,
-        ser\xE1 muito dif\xEDcil ela passar mal. "
-      m_SpeakerName: Doutor
-    - m_Text: "Humm. Acho que entendi. Asma \xE9 quando a pessoa tem dificuldade
-        para respirar"
+    - m_Text: "Depende. Se ele tiver uma boa alimenta\xE7\xE3o e cuidar bem da sa\xFAde,
+        a chance de ter \xE9 muito baixa. "
+      m_SpeakerName: Enfermeira
+    - m_Text: "Entendi. Essa doen\xE7a ent\xE3o impede que o sangue regue os nossos
+        org\xE3os?"
       m_SpeakerName: Amachi
-    - m_Text: Isso mesmo!
-      m_SpeakerName: Doutor
+    - m_Text: "Exatamente. Parab\xE9ns. Voc\xEA aprende r\xE1pido!"
+      m_SpeakerName: Enfermeira
+    - m_Text: "Mam\xE3e fala que sou inteligente. "
+      m_SpeakerName: Amachi
+    - m_Text: "Voc\xEA \xE9 sim! Muito inteligente. "
+      m_SpeakerName: Enfermeira
+    - m_Text: "Muito obrigado! Vou anotar tudo que aprendi sobre hipertens\xE3o. "
+      m_SpeakerName: Amachi
   talked: 0
 --- !u!212 &699986173
 SpriteRenderer:
@@ -2071,18 +2077,18 @@ MonoBehaviour:
     - m_Text: "Muita coisa! Descobri que todos os dias vem pessoas aqui, falam com
         a recepcionista e ficam esperando para serem chamados. S\xE3o pessoas diferentes. "
       m_SpeakerName: Amachi
-    - m_Text: "Muito bem! Isso mesmo. Voc\xEA sabe por que elas ficam esperando? "
+    - m_Text: "Muito bem! Isso mesmo. Voc\xEA sabe por qu\xEA elas ficam esperando? "
       m_SpeakerName: Doutor
     - m_Text: "Para falar com voc\xEA!"
       m_SpeakerName: Amachi
-    - m_Text: "Muito bom! Mas voc\xEA sabe por que elas encaminham-se at\xE9 aqui
+    - m_Text: "Muito bom! Mas voc\xEA sabe por qu\xEA elas encaminham-se at\xE9 aqui
         para falarem comigo? Voc\xEA sabe por qu\xEA voc\xEA vem aqui?"
       m_SpeakerName: Doutor
     - m_Text: "N\xE3o! Ainda n\xE3o consegui descobrir. Mas vou descobrir. "
       m_SpeakerName: Amachi
-    - m_Text: " Muito bem! Continue assim, que voc\xEA ser\xE1 uma excelente explorador.
-        No entanto, vou te ajudar com algumas informa\xE7\xF5es. Nos estamos em uma
-        Clinica de Sa\xFAde. Voc\xEA sabe o que \xE9 isso? "
+    - m_Text: " Muito bem! Continue assim, que voc\xEA ser\xE1 um excelente explorador.
+        No entanto, vou te ajudar com algumas informa\xE7\xF5es. N\xF3s estamos em
+        uma Cl\xEDnica de Sa\xFAde. Voc\xEA sabe o que \xE9 isso? "
       m_SpeakerName: Doutor
     - m_Text: "\xC9 um lugar que cuida de pessoas."
       m_SpeakerName: Amachi

@@ -5435,11 +5435,11 @@ MonoBehaviour:
     m_PlayerImage: {fileID: 21300000, guid: b49b5e888825ae84f82d5459884bfc57, type: 3}
     m_CharacterImage: {fileID: 21300000, guid: 707b456cd70cb7e4e9687f2cc542030d, type: 3}
     m_Sentences:
-    - m_Text: "Bem-Vindo!  Como que voc\xEA est\xE1? "
+    - m_Text: "Bem-vindo!  Como que voc\xEA est\xE1? "
       m_SpeakerName: "Secret\xE1ria"
     - m_Text: "Estou bem! Voc\xEA sabe o que descobri hoje? Descobri que as Girafas
         do Norte da \xC1frica, s\xE3o os maiores animais do mundo. "
-      m_SpeakerName: "Voc\xEA"
+      m_SpeakerName: Amachi
     - m_Text: "S\xE9rio? Que descoberta incr\xEDvel. Se continuar assim, vai descobrir
         coisas maravilhosas.  E sinto que hoje ser\xE1 um grande dia para voc\xEA
         descobrir coisas novas. "
@@ -5450,6 +5450,8 @@ MonoBehaviour:
     - m_Text: "Aposto que voc\xEA vai aprender muitas coisas com cada uma delas.
         Lembre-se, seja gentil!\n"
       m_SpeakerName: "Secret\xE1ria"
+    - m_Text: Okay! Pode deixar.
+      m_SpeakerName: Amachi
   talked: 0
 --- !u!61 &2127652184
 BoxCollider2D:

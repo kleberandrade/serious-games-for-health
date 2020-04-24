@@ -20,9 +20,6 @@ Rafael Lee
 t:UI Artist
 Matheus D'Luca
 
-t:Level Designer
-Leonardo Dantas
-
 t:Tech Artists
 Lana Schimitez
 Leonardo Dantas
