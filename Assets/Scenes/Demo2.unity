@@ -1749,6 +1749,7 @@ MonoBehaviour:
       m_SpeakerName: Amachi
   talked: 0
   unlock: 0
+  controleFinal: {fileID: 1545303922}
 --- !u!212 &699986173
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2141,6 +2142,7 @@ MonoBehaviour:
       m_SpeakerName: Doutor
   talked: 0
   unlock: 1
+  controleFinal: {fileID: 0}
 --- !u!212 &855050080
 SpriteRenderer:
   m_ObjectHideFlags: 0
