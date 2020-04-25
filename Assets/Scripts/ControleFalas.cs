@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ControleFalas : MonoBehaviour
 {
-    private int numSelector = 2;
+    private readonly int numSelector = 2;
     public GameObject[] selectorArr = new GameObject[2];
     private bool unlock = true;
     private bool talked = false;
@@ -26,7 +26,6 @@ public class ControleFalas : MonoBehaviour
             talked = selectorArr[index].gameObject.GetComponent<DialogTrigger>().talked;
             unlock = true;
             selectorArr[index].gameObject.GetComponent<DialogTrigger>().unlock = unlock;
-            Debug.Log(selectorArr[index]);
         }
     }
 }

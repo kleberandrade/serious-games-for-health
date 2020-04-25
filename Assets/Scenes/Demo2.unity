@@ -1676,6 +1676,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Joystick Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3831672364862025648, guid: 838d4a325dea1234c9d4a963c5085c81,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3831672364862025663, guid: 838d4a325dea1234c9d4a963c5085c81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1978,6 +1983,7 @@ MonoBehaviour:
   talked: 0
   unlock: 0
   controleFinal: {fileID: 1545303922}
+  final: 0
 --- !u!212 &699986173
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2521,6 +2527,7 @@ MonoBehaviour:
   talked: 0
   unlock: 1
   controleFinal: {fileID: 0}
+  final: 0
 --- !u!212 &855050080
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3511,7 +3518,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &1545303926
 RectTransform:

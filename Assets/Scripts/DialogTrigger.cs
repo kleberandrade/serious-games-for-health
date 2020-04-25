@@ -8,19 +8,15 @@ public class DialogTrigger : MonoBehaviour
     public bool talked = false;
     public bool unlock;
     public GameObject controleFinal;
-    private float countdown = 3.0f;
+    public bool final;
 
     public void Update()
     {
-        if (gameObject.name == "Nurse" && talked)
+        final = GameObject.Find("Dialog Manager").GetComponent<DialogManager>().final;
+        if (this.gameObject.name == "Nurse" && final)
         {
-            countdown -= Time.deltaTime;
-            if (countdown <= 1)
-            {
-                controleFinal.SetActive(true);
-                countdown = 0;
-            }
-
+            controleFinal.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
     public void ToggleDialog()

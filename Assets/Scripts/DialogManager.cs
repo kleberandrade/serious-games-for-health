@@ -8,6 +8,14 @@ public class DialogManager : MonoBehaviour
 {
     public static DialogManager Instance { get; private set; }
 
+    public bool final = false;
+    public bool talked = false;
+
+    public void Update()
+    {
+        talked = GameObject.Find("Nurse").GetComponent<DialogTrigger>().talked; //mudar quando tiver o diario
+    }
+
     private void Awake()
     {
         if (Instance == null)
@@ -51,7 +59,7 @@ public class DialogManager : MonoBehaviour
 
     private static void ToggleJoystickCanvas(bool open)
     {
-        GameObject.Find("Joystick Canvas").GetComponent<ToggleJoystick>().toggleJoystick(open);
+        //GameObject.Find("Joystick Canvas").GetComponent<ToggleJoystick>().toggleJoystick(open);
     }
 
     public void UpdateUI(Dialog dialog)
@@ -97,6 +105,10 @@ public class DialogManager : MonoBehaviour
         OpenDialogAnimation(false);
         ToggleJoystickCanvas(true);
         m_SkipText.text = "";
+        if (talked)
+        {
+            final = true;
+        }
     }
 
     private IEnumerator WriteSentence(DialogSentence sentence)
