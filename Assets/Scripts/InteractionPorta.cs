@@ -10,7 +10,7 @@ public class InteractionPorta : MonoBehaviour
     public bool talked = false;
     private void Update()
     {
-        talked = GameObject.Find("Secretaria").GetComponent<DialogTrigger>().talked;
+        talked = GameObject.Find("Interação").GetComponent<DialogTrigger>().talked;
         if (Input.touchCount > 0 && interaction && talked == true)
         {
             Touch touch = Input.GetTouch(0);
