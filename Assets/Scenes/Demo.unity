@@ -4840,6 +4840,7 @@ MonoBehaviour:
   talked: 0
   unlock: 0
   controleFinal: {fileID: 0}
+  final: 0
 --- !u!61 &1515092179
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5588,11 +5589,16 @@ MonoBehaviour:
     m_PlayerImage: {fileID: 21300000, guid: b49b5e888825ae84f82d5459884bfc57, type: 3}
     m_CharacterImage: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
     m_Sentences:
-    - m_Text: Vou beber agua
-      m_SpeakerName: "Voc\xEA"
+    - m_Text: "Nossa, achei que era mais f\xE1cil comprar por essa m\xE1quina."
+      m_SpeakerName: Amachi
+    - m_Text: ...
+      m_SpeakerName: Amachi
+    - m_Text: "Pronto! At\xE9 que enfim eu consegui, agora vou falar com o doutor."
+      m_SpeakerName: Amachi
   talked: 0
   unlock: 0
   controleFinal: {fileID: 0}
+  final: 0
 --- !u!114 &2031371060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5887,11 +5893,15 @@ MonoBehaviour:
     - m_Text: "Aposto que voc\xEA vai aprender muitas coisas com cada uma delas.
         Lembre-se, seja gentil!\n"
       m_SpeakerName: "Secret\xE1ria"
-    - m_Text: Okay! Pode deixar.
+    - m_Text: "Okay! S\xF3 irei comprar uma \xE1gua."
       m_SpeakerName: Amachi
+    - m_Text: "Isso! Ap\xF3s tomar sua \xE1gua, voc\xEA j\xE1 pode ir falar com o
+        doutor."
+      m_SpeakerName: "Secret\xE1ria"
   talked: 0
   unlock: 1
   controleFinal: {fileID: 0}
+  final: 0
 --- !u!61 &2127652184
 BoxCollider2D:
   m_ObjectHideFlags: 0

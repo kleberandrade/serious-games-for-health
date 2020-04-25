@@ -1914,10 +1914,11 @@ MonoBehaviour:
       m_SpeakerName: Enfermeira
     - m_Text: "Hipertens\xE3o ? O qu\xEA \xE9 isso? "
       m_SpeakerName: Amachi
-    - m_Text: "Hipertens\xE3o \xE9 quando o nivel de press\xE3o sanguinea nas art\xE9rias
-        est\xE3o elevados, impedindo do sangue ser bombeado pelo ser corpo. "
+    - m_Text: "Hipertens\xE3o \xE9 quando o n\xEDvel de press\xE3o sanguinea nas
+        art\xE9rias est\xE3o elevados, impedindo do sangue ser bombeado pelo seu
+        corpo. "
       m_SpeakerName: Enfermeira
-    - m_Text: "N\xE3o entendi. O que \xE9 arteria? Press\xE3o? Sangue?"
+    - m_Text: "N\xE3o entendi. O que \xE9 art\xE9ria? Press\xE3o? Sangue?"
       m_SpeakerName: Amachi
     - m_Text: ' Vamos imaginar o seguinte. Na sua casa tem Jardim?'
       m_SpeakerName: Enfermeira
@@ -1926,11 +1927,11 @@ MonoBehaviour:
     - m_Text: "O seu papai ou mam\xE3e est\xE3o sempre regando o jardim?"
       m_SpeakerName: Enfermeira
     - m_Text: Sim!
-      m_SpeakerName: Aamchi
+      m_SpeakerName: Amachi
     - m_Text: Eles utilizam uma mangueira para molhar todas as flores.
       m_SpeakerName: Amachi
     - m_Text: "Muito bem. Agora imagina, que dentro de voc\xEA existem v\xE1rias
-        flores e plantas quee precisam ser regadas."
+        flores e plantas que precisam ser regadas."
       m_SpeakerName: Doutor
     - m_Text: Eu sou um Jardim!
       m_SpeakerName: Amachi
@@ -1955,7 +1956,7 @@ MonoBehaviour:
       m_SpeakerName: Amachi
     - m_Text: " Exatamente. E isso acontece com as art\xE9rias tamb\xE9m. "
       m_SpeakerName: Enfermeira
-    - m_Text: Com as arterias?
+    - m_Text: "Com as art\xE9rias?"
       m_SpeakerName: Amachi
     - m_Text: "Sim! Se n\xF3s n\xE3o cuidarmos do nosso corpo e sa\xFAde, nossas
         art\xE9rias ser\xE3o prejudicadas. "
