@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
@@ -10,10 +11,15 @@ public class DialogManager : MonoBehaviour
 
     public bool final = false;
     public bool talked = false;
+    private Scene scene;
 
     public void Update()
     {
-        talked = GameObject.Find("Nurse").GetComponent<DialogTrigger>().talked; //mudar quando tiver o diario
+        scene = SceneManager.GetActiveScene();
+        if (scene.name == "Demo2")
+        {
+            talked = GameObject.Find("Nurse").GetComponent<DialogTrigger>().talked; //mudar quando tiver o diario
+        }
     }
 
     private void Awake()

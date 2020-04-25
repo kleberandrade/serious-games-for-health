@@ -16,7 +16,7 @@ public class DialogTrigger : MonoBehaviour
         if (this.gameObject.name == "Nurse" && final)
         {
             controleFinal.SetActive(true);
-            gameObject.SetActive(false);
+            unlock = false;
         }
     }
     public void ToggleDialog()
