@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ControleFalas : MonoBehaviour
 {
@@ -9,14 +10,16 @@ public class ControleFalas : MonoBehaviour
     private bool unlock = true;
     private bool talked = false;
     private int index = 0;
+    public Text[] textArr = new Text[2];
 
     void Update()
     {
         talked = selectorArr[index].gameObject.GetComponent<DialogTrigger>().talked;
         if (talked == true)
         {
+            textArr[index].color = Color.gray;
             index += 1;
-            if (index >= numSelector)
+            if (index >= numSelector) //arrumar
             {
                 Destroy(this.gameObject);
             }

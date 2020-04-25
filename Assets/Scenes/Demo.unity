@@ -607,7 +607,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Teste 2
+  m_Text: "Miss\xE3o 2"
 --- !u!222 &102943915
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2630,7 +2630,7 @@ PrefabInstance:
     - target: {fileID: 2050155266671878915, guid: 372ba221ea6527e439213ab9fe5ab633,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2050155266671878919, guid: 372ba221ea6527e439213ab9fe5ab633,
         type: 3}
@@ -5026,7 +5026,7 @@ GameObject:
   - component: {fileID: 1598142447}
   - component: {fileID: 1598142446}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Painel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5050,7 +5050,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 550, y: 500}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1598142446
@@ -5157,7 +5157,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Teste 1
+  m_Text: "Miss\xE3o 1"
 --- !u!222 &1631505698
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5731,6 +5731,9 @@ MonoBehaviour:
   selectorArr:
   - {fileID: 2031371058}
   - {fileID: 2127652179}
+  textArr:
+  - {fileID: 1631505697}
+  - {fileID: 102943914}
 --- !u!4 &2044914110
 Transform:
   m_ObjectHideFlags: 0
